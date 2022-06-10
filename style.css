@@ -8,8 +8,8 @@
     grid-gap: 0;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-columns), 1fr);
-    width: 25vw;
-    height: 25vw;
+    width: 50vw;
+    height: 50vw;
     border: 1px solid black;
 }
 
