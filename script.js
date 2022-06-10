@@ -15,4 +15,15 @@ function ColorChange(event){
     let color = document.getElementById("button-green").value;
     event.target.style.backgroundColor = color;
 }
-createGrid(16, 16);
+
+function clearGrid(){
+    container.innerHTML = "";
+}
+
+function changeGrid(){
+    let range = document.getElementById("range").value;
+    clearGrid();
+    createGrid(range, range);
+}
+
+createGrid(16,16);
