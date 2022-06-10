@@ -8,9 +8,13 @@
     grid-gap: 0;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-columns), 1fr);
-    width: 50vw;
-    height: 50vw;
+    width: 40vw;
+    height: 40vw;
     border: 1px solid black;
+}
+
+.grid-item{
+  border: 1px solid black;
 }
 
 input[type='color'] {
